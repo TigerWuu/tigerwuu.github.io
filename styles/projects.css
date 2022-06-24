@@ -1,0 +1,49 @@
+.set-bottom{
+    display:table-cell;
+    vertical-align: bottom;
+}
+
+.space{
+  padding: 1rem;
+}
+
+.nothing{
+  border: 0;
+  margin-bottom: 0rem;
+}
+
+.card{
+  border-radius: 1rem;
+}
+
+.card-img-top{
+  height: 10rem;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+
+.pdf-icon{
+  font-size: 2rem;
+  color: rgb(46, 83, 251);
+}
+
+.video-icon{
+  font-size: 2rem;
+  color: rgb(9, 27, 107);
+}
+
+.git-icon{
+  font-size: 2rem;
+  color: rgb(0, 0, 0);
+}
+
+
+/*
+.pad-bottom{
+    padding-bottom:100%;
+}
+/*
+.al-bottom{
+    position:unset;
+}
+*/

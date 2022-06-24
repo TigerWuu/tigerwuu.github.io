@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<head>
+    <title>Wuu's World</title>
+    <meta name="viewport" content="width=devicewidth, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/main.css">
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+    <!-- Google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kdam+Thmor+Pro&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
+      <a class="navbar-brand" href="#">TigerWuu's</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+  
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              About
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="about_cv.html">CV</a>
+              <a class="dropdown-item" href="about_resume.html">Resume</a>
+              <a class="dropdown-item" href="#">SOP</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="projects.html">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Competitions</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Hobbies
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Table Tennis</a>
+              <a class="dropdown-item" href="#">Guitar</a>
+            </div>
+          </li>         
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
+    <!--Header-->
+    <header class="masthead">
+       <div class="container position-relative">
+           <div class="row gx-4 gx-lg-5 justify-content-center">
+               <div class="col-md-10 col-lg-8 col-xl-7">
+                   <div class="site-heading">
+                       <h1>About Me</h1>
+                       <span class="subheading">A coolest blog in the world</span>
+                   </div>
+               </div>
+           </div>
+       </div>   
+    </header>
+    <!--scrollspy and side Nav-->
+    <div class="container-fluid" id="all-body">
+      <div class="row">
+          <div class="col-4">
+              <nav id="navbar-content" class="navbar navbar-light bg-light flex-column">
+                <nav class="nav nav-pills flex-column">
+                  <a class="navbar-brand" href="#resume">Resume</a>
+                  <a class="nav-link" href="#education">Education</a>
+                  <a class="nav-link" href="#skills">Skills</a>
+                  <a class="nav-link" href="#certification">Certification</a>
+                  <a class="nav-link" href="#work-experience">Work Experience</a>
+                  <a class="nav-link" href="#leadership-experience">Leadership Experience</a>
+                  <a class="nav-link" href="#biography">Biography</a>
+                </nav>
+              </nav>
+          </div>
+          <div class="col-8">
+              <!--Head shot-->
+              <!--div class="img-content">
+                <img src="images/self.jpg" class="self-img">
+              </div-->
+              <div data-spy="scroll" data-target="#navbar-content" data-offset="0">
+                <h1 id="resume">Resume</h1>
+                <hr></hr>
+                <h3 id="education">Education</h3>
+                  <div class="row">
+                    <div class="col-9">
+                      <p>
+                        <strong id="small-title">National Taiwan University</strong><br>
+                        Bachelor in Biomechatronics Engineering<br>
+                        Master in Eletrical Engineering (Automatic Control Group)<br>
+                      </p>
+                    </div>
+                    <div class="col-3">
+                      <p>
+                        Taipei, Taiwan<br>
+                        Sept. 2017 - Feb. 2022<br>
+                        Feb. 2023 - Feb. 2025(expected)
+                      </p>
+                    </div>
+                  </div>
+                <hr></hr>
+                <h3 id="skills">Skills</h3>
+                  <div class="row">
+                    <div class="col-3">
+                      <strong id="small-title">Programming</strong>
+                      <ul>
+                        <li>Python</li>
+                        <li>C/C++</li>
+                        <li>Matlab</li>
+                        <li>ROS</li>
+                      </ul>
+                    </div>
+                    <div class="col-3">
+                      <strong id="small-title">Full-stack</strong>
+                      <ul>
+                        <li>HTML5</li>
+                        <li>CSS</li>
+                        <li>bootstrap4</li>
+                        <li>javascript</li>
+                      </ul>
+                    </div>
+                    <div class="col-3">
+                      <strong id="small-title">Software</strong>
+                      <ul>
+                        <li>Solidworks</li>
+                        <li>Simulink</li>
+                        <li>Gazebo</li>
+                        <li>QT</li>
+                        <li>QGroundControl</li>
+                      </ul>
+                    </div>
+                    <div class="col-3">
+                      <strong id="small-title">System & Controller</strong>
+                      <ul>
+                        <li>Ubuntu18/20</li>
+                        <li>Raspberry pi 3/4</li>
+                        <li>Arduino</li>
+                        <li>Nvidia Tx2/Xavier</li>
+                        <li>Pixhawk series</li>
+                      </ul>
+                    </div>
+                    <div class="col-9">
+                      <strong id="small-title">Tools</strong>
+                      <ul>
+                        <li>Github</li>
+                        <li>vim</li>
+                      </ul>
+                    </div>
+                  </div>
+                <hr></hr>
+                <h3 id="certification">Certification</h3>
+                <p>...</p>
+                <hr></hr>
+                <h3 id="work-experience">Work Experience</h3>
+                  <div>
+                    <div class="row">
+                      <div class="col-9">
+                        <p>
+                          <strong id="small-title">Robots and Medical Mechatronics (RMML)</strong><br>
+                          Undergraduate researcher<br>
+                        </p>
+                      </div>
+                      <div class="col-3">
+                        <p>
+                          Taipei, Taiwan<br>
+                          Sept. 2019 - Sept. 2021<br> 
+                        </p>
+                      </div>
+                    </div>  
+                    <div>
+                      <strong>Development of a common platform for remote control robots for oral and nasal cavity specimen collection</strong>
+                      <ul>
+                        <li>Aiming at building a automatic specimen collection robot with remote center motion(RCM) technique for the sake of higher security during the swabbing process.</li>
+                        <li>In charge of designing the RCM linkage mechanism</li>
+                        <li><mark>Sponsorship from the Ministry of Science and Technology (MOST)</mark></li> 
+                      </ul>
+                      <strong>2019 Bio-mechatronics Field Robot Competition</strong>
+                      <ul>
+                        <li>Aiming at building a fully autonomous vehicle which equipped with multiple sensors, such as imu, robotic arm, camera to achieve various of tasks encounter in the competition</li>
+                        <li>In charge of using open source tiny-yolov3 repository to train our model. Aiming at getting apple's 3-D coordinates so that we can control a 4-axis manipulator to grab the apples automatically.</li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div>
+                    <div class="row">
+                      <div class="col-9">
+                        <p>
+                          <strong id="small-title">Aiseed Tech Inc. </strong><br>
+                          Robotics AI engineer intern<br>
+                        </p>
+                      </div>
+                      <div class="col-3">
+                        <p>
+                          Taipei, Taiwan<br>
+                          Oct. 2021 - present<br> 
+                        </p>
+                      </div>
+                    </div>  
+                    <div>
+                      <strong>Building UAV systems</strong>
+                      <ul>
+                        <li>Aiming at building a fully automatic VTOL system with ROS</li>
+                        <li>Connecting a variety of sensors such like intel realsense d435i, T265, webcam with raspberry pi4</li>
+                        <li>Validating the behavior of automatic quadcopter and VTOL system with Gazebo and mavros SDK.</li> 
+                        <li>Studying the obstacle avoidance and slam techniques to be applied to UAV system.</li> 
+                        <li>Implementing track algorithmn in quadcopter system with Gazebo and tiny-yolov4</li> 
+                      </ul>
+                      <strong>2022 Consumer Electronics Show (CES) </strong>
+                      <ul>
+                        <li>In charge of implementing video streaming from UAV system to website through Gstreamer</li>
+                      </ul>
+                      <strong>2022 Coast Guard Case</strong>
+                      <ul>
+                        <li>Precision landing function enabled with the distance sensor and irlock beacon</li>
+                        <li>Implementing the real-time home-setting function through GPS information in the GCS</li>
+                      </ul>
+                    </div>
+                  </div>
+                <hr></hr>
+                <h3 id="leadership-experience">Leadership Experience</h3>
+                  <div>
+                    <div class="row">
+                      <div class="col-9">
+                        <p>
+                          <strong id="small-title">2020 Azalea Festival Project</strong><br>
+                          Team leader<br>
+                        </p>
+                      </div>
+                      <div class="col-3">
+                        <p>
+                          Taipei, Taiwan<br>
+                          Feb. 2020 - Mar. 2020<br> 
+                        </p>
+                      </div>
+                    </div>  
+                    <div>
+                      <ul>
+                        <li>Led the team to build a<strong>Automatic sensing and catching apple truck system</strong></li>
+                        <li>In charge of image recognition and the transportation between the Arduino and the laptop</li>
+                        <li>Filmed a recruit video to promote Biomechatronics Engineering Department</li> 
+                      </ul>
+                    </div>
+                    <div class="row">
+                      <div class="col-9">
+                        <p>
+                          <strong id="small-title">2020 Country Youth Life Study Club</strong><br>
+                          Leader of Activities Department<br>
+                        </p>
+                      </div>
+                      <div class="col-3">
+                        <p>
+                          Taipei, Taiwan<br>
+                          Sept. 2020 - Feb. 2021<br> 
+                        </p>
+                      </div>
+                    </div>  
+                    <div>
+                      <p>
+                        We will conduct a summer/winter camp in the rural junior high school for a week. The responsibility of activities department is to hold an evening party and bring the laughter and tears to the children.
+                      </p>
+                      <ul>
+                        <li>Effectively assigning work to every member of activity department.</li>
+                        <li>Good time management to ensure every work will be in place in time.</li>
+                      </ul>
+                    </div>
+                 
+                  </div>
+                <h3 id="biography">Biography</h3>
+                <p>...</p>
+              </div>
+          </div>
+      </div> 
+   
+    </div>
+    <!-- Footer-->
+    <footer class="border-top">
+        <div class="container px-4 px-lg-5">
+            <div class="row gx-4 gx-lg-5 justify-content-center">
+                <div class="col-md-10 col-lg-8 col-xl-7">
+                    <ul class="list-inline text-center">
+                        <li class="list-inline-item">
+                            <a href="#!">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fas fa-circle fa-stack-2x"></i>
+                                    <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://www.facebook.com/beanfunmember">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fas fa-circle fa-stack-2x"></i>
+                                    <i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://github.com/TigerWuu">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fas fa-circle fa-stack-2x"></i>
+                                    <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="small text-center text-muted fst-italic">Copyright &copy; Your Website 2022</div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="scripts/main.js"></script>
+</body>

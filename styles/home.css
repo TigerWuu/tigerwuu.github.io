@@ -1,0 +1,42 @@
+.overall{
+  height: 100vh;
+}
+
+.intro{
+  position: relative;
+  background-color: rgba(133, 145, 128, 0.188);
+  height: 100%;
+}
+
+.content-background{
+  background: url('../images/deep-ocean.jpg') no-repeat center;
+  background-size: cover;
+  height: 100%;
+}
+
+nav a{
+  color: rgb(244, 250, 255);
+  font-size: 2rem;
+}
+
+.outline{
+  position: absolute;
+  bottom: 5%;
+  right: 5%;
+}
+
+.hello{
+  position: absolute;
+  left: 8%;
+  top: 20%;
+  color: rgb(255, 48, 217);
+  font-size: 2.5rem;
+  z-index: 10;
+  font-family: 'Smooch', cursive;
+}
+
+.left-bottom{
+  position:fixed;
+  bottom: 7%;
+  left: 3%;
+}
