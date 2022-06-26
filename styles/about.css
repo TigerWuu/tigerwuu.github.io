@@ -1,0 +1,33 @@
+.self-img{
+  border-radius: 100px;
+  width: 200px;
+  height: 200px;
+  display: block;
+  margin: 1rem 0rem 1rem auto;/*top right bottom left*/
+}
+
+.block-right{
+  float: right;
+}
+
+.about-content{
+  text-align: center;
+}
+
+h5 {
+  font-size: 2rem;
+  font-family: 'Bebas Neue', cursive;
+}
+
+h2{
+  font-family: 'Smooch', cursive;
+}
+
+.more-about{
+  position: absolute;
+  bottom: 1rem;
+}
+
+button{
+  margin: 2px 0px;
+}
