@@ -6,23 +6,17 @@
     margin: 0rem;
     font-size: 0.5rem
 }
-/*
-.carousel-item img{
-    display: block;
-    margin: 0 auto;
-    max-width: 80%;
-    max-height: 80vh;
-}
 
-.carousel-item video{
-    display: block;
-    margin: 0 auto;
-    max-width: 80%;
-    max-height: 80vh;
+.text-right-sm{
+    display: inline;
+    position: absolute;
+    top: 1.8rem;
+    right: 0.5rem;
+    margin: 0rem;
+    font-size: 0.4rem
 }
-*/
 .slide-image{
     display: block;
     margin: 0 auto;
-    height: 75vh;
+    height: 80vh;
 }
