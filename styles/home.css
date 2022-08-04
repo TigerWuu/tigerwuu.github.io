@@ -25,11 +25,22 @@ nav a{
   bottom: 5%;
   right: 5%;
 }
+.my-icon{
+  position: absolute;
+  left: 2%;
+  top: 2%;
+  z-index: 5;
+}
+
+.my-img{
+  width: 50%;
+  height: 50%;
+}
 
 .hello{
   position: absolute;
   left: 8%;
-  top: 20%;
+  top: 25%;
   color: rgb(255, 48, 217);
   font-size: 2.5rem;
   z-index: 10;
