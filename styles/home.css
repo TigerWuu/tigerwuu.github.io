@@ -20,11 +20,7 @@ nav a{
   font-size: 2rem;
 }
 
-.outline{
-  position: absolute;
-  bottom: 5%;
-  right: 5%;
-}
+
 .my-icon{
   position: absolute;
   left: 2%;
@@ -36,17 +32,46 @@ nav a{
   width: 50%;
   height: 50%;
 }
+@media(max-width : 576px) {
+  .hello{
+    position: absolute;
+    left: 8%;
+    top: 25%;
+    color: rgb(255, 48, 217);
+    font-size: 1.5rem;
+    z-index: 10;
+    font-family: 'Smooch', cursive;
+    transition-delay: 0.5s;
+  } 
+ 
+  .outline{
+    position: fixed;
+    bottom: 18%;
+    right: 5%;
+  }
 
-.hello{
-  position: absolute;
-  left: 8%;
-  top: 25%;
-  color: rgb(255, 48, 217);
-  font-size: 2.5rem;
-  z-index: 10;
-  font-family: 'Smooch', cursive;
-  transition-delay: 0.5s;
 }
+
+@media(min-width : 576px) {
+  .hello{
+    position: absolute;
+    left: 8%;
+    top: 25%;
+    color: rgb(255, 48, 217);
+    font-size: 2.5rem;
+    z-index: 10;
+    font-family: 'Smooch', cursive;
+    transition-delay: 0.5s;
+  } 
+ 
+  .outline{
+    position: fixed;
+    bottom: 5%;
+    right: 5%;
+  }
+  
+}
+
 
 .left-bottom{
   position:fixed;
