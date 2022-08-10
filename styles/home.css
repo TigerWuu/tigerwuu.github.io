@@ -17,7 +17,6 @@
 
 nav a{
   color: rgb(244, 250, 255);
-  font-size: 2rem;
 }
 
 
@@ -50,6 +49,15 @@ nav a{
     right: 5%;
   }
 
+  nav a{
+    font-size: 1.5rem;
+  }
+  
+  .my-img{
+    width: 30%;
+    height: 30%;
+  }
+
 }
 
 @media(min-width : 576px) {
@@ -70,6 +78,14 @@ nav a{
     right: 5%;
   }
   
+  nav a{
+    font-size: 2rem;
+  }
+ 
+  .my-img{
+    width: 50%;
+    height: 50%;
+  }
 }
 
 
