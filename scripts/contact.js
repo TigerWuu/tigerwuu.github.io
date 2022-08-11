@@ -1,4 +1,4 @@
-let gogo = document.querySelector(".gogo");
+// let gogo = document.querySelector(".gogo");
 
 function sendEmail() {
     let inputForm = document.querySelector(".contactForm");
@@ -26,6 +26,5 @@ function sendEmail() {
     });
 }
 
-
-gogo.addEventListener("click", sendEmail);
+// gogo.addEventListener("click", sendEmail);
 
