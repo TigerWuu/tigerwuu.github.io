@@ -14,6 +14,7 @@ html{
     color: aliceblue;
   }
 }
+
 header.masthead {
   position: relative;
   margin-bottom: 3rem;
@@ -25,6 +26,7 @@ header.masthead {
   background-attachment: scroll;
   text-align: center;
 }
+
 header.masthead:before {
   content: "";
   position: absolute;
@@ -35,8 +37,6 @@ header.masthead:before {
   background-color: #212529;
   opacity: 0.5;
 }
-
-
 
 .subheading{
   font-size: 1rem;
@@ -53,12 +53,6 @@ header.masthead:before {
   padding-bottom: 3rem;
 }
 
-#navbar-content{
-  font-size: 1.5rem;
-}
-.navbar-brand{
-  font-size: 1.5rem;
-}
 .fa-lg{
   font-size: 1.3rem;
   color: rgb(10, 10, 78);
@@ -67,6 +61,7 @@ header.masthead:before {
 #small-title{
   font-size: 1.3rem;
 }
+
 #all-body{
   margin: 0rem;
   padding: 0rem 3%;
@@ -85,17 +80,3 @@ nav a{
   height: 80vh;
   overflow: auto;
 }
-
-
-
-
-/*
-#container-img{
-  margin-left: 0px;
-}
-
-#navbar-content{
-  width: 30%;
-  margin: 1rem 1rem;
-}
-*/
