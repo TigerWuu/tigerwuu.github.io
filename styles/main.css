@@ -75,6 +75,10 @@ nav a{
   font-family: 'Kdam Thmor Pro', sans-serif;
 }
 
+.navbar-brand{
+  font-size: 2rem;
+}
+
 .spy{
   position: relative;
   height: 80vh;
