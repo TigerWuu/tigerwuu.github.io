@@ -41,7 +41,7 @@ nav a{
  
   .outline{
     position: absolute;
-    bottom: 20%;
+    bottom: 25%;
     right: 5%;
   }
 
@@ -55,8 +55,8 @@ nav a{
   }
   
   .left-bottom{
-    position:fixed;
-    bottom: 4%;
+    position:absolute;
+    bottom: 1%;
     left: 2%;
     z-index: 6;
   }
@@ -91,7 +91,7 @@ nav a{
   }
   
   .left-bottom{
-    position:fixed;
+    position:absolute;
     bottom: 7%;
     left: 3%;
     z-index: 6;
