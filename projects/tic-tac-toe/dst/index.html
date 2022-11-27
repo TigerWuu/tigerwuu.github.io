@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tic Tae Toe</title>
+    <meta name="viewport" content="width=devicewidth, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" href="../images/tic_tac_toe.png" type="image/x-icon">
+    <!--bootstrap 4 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!--link rel="stylesheet" href="../src/main.css">
+    <link rel="stylesheet" href="../src/title.css">
+    <link rel="stylesheet" href="../src/banner.css">
+    <link rel="stylesheet" href="../src/grid.css">
+    <link rel="stylesheet" href="../src/cell.css">
+    <link rel="stylesheet" href="../src/reset.css"-->
+    <!--google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+</head>
+<body class="main">
+    <div class="container-fluid">
+        <div class="title">
+            <span class="text-wrapper">
+                <span class="line line1"></span>
+                <span class="letters">Wuu's Tic Tac Toe</span>
+                <span class="line line2"></span>
+            </span>
+            <!--h1><strong>Wuu's Tic Tac Toe</strong></h1-->
+        </div>
+        <nav class="nav">
+            <a class="nav-link active" href="index.html">Normal</a>
+            <a class="nav-link" href="nightmare.html">Nightmare</a>
+        </nav>
+        <div class="banner">
+            <div class="row">
+                <div class="col-2">
+                </div>
+                <div class="col-4 X">
+                    <h3>X : <span id="scoreX">0</span></h3>
+                </div>
+                <div class="col-4 O">
+                    <h3>O : <span id="scoreO">0</span></h3>
+                </div>
+                <div class="col-2">
+                </div>
+            </div>
+        </div>
+        <div class="grid">
+            <table>
+                <tr>
+                    <td class="cell"></td>
+                    <td class="cell"></td>
+                    <td class="cell"></td>
+                </tr>
+                <tr>
+                    <td class="cell"></td>
+                    <td class="cell"></td>
+                    <td class="cell"></td>
+                </tr>
+                <tr>
+                    <td class="cell"></td>
+                    <td class="cell"></td>
+                    <td class="cell"></td>
+                </tr>
+            </table>
+            <div>
+            </div>
+        </div>
+        <div class="reset">
+            <button type="button" class="btn btn-danger">Reset</button>
+        </div>
+        <audio class="audio" src="../audios/The Chainsmokers Coldplay - Something Just Like This (Extended Radio Edit).mp3" autoplay controls loop></audio>
+        <span class="version">Version : 1.1 2022.5.27</span>
+    </div>
+    <style>
+        .audio{
+            display: block;
+            margin: auto;
+        }
+
+        .version{
+            margin-top: 0px;
+            font-size: 0.2rem;
+        }
+    </style>
+
+    <!--script type="module" src="../src/main.js"></script-->
+    <!--script type="module" src="../src/title.js"></script-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    <script src="main.bundle.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>

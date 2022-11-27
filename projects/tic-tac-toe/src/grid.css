@@ -1,0 +1,42 @@
+.grid{
+  position: relative;
+  margin: 5px;
+  padding: 5px;
+  background-color: rgba(14, 238, 51, 0.425);
+  border-radius: 1rem;
+  border: rgb(12, 155, 12) solid 3px;
+}
+
+.grid table{
+  width : 20rem;
+  height : 20rem;
+  margin : 0 auto;
+  background-color:rgb(222, 242, 245);
+  text-align: center;
+  border-collapse :separate;
+  border : 2px solid blue;
+  
+}
+
+.grid .winBanner{
+  position: absolute;
+  top: 33%;
+  left: 20%; 
+
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  height: 33%;
+  width: 60%;
+  border: 3px solid rgb(145, 145, 197);
+  border-radius: 1rem;
+  background-color: rgb(255, 0, 0);
+  text-align: center;
+  margin: auto;
+  /*
+  vertical-align: middle;
+  */
+  color: aliceblue;
+  font-size: 2rem;
+  
+  transition-duration: 1s;
+}

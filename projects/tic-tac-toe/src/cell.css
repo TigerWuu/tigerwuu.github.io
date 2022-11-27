@@ -1,0 +1,14 @@
+.cell{
+  margin: 0;
+  padding: 0;
+  width: 33%;
+  height: 33%;
+  border:2px solid blue;
+  text-align: center;
+  font-size: 2rem;
+  font-family: 'Pacifico', cursive;
+  /*
+  transition-delay: 1s;
+  transition-duration: 1s;
+  */
+}

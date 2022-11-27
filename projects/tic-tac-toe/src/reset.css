@@ -1,0 +1,14 @@
+.reset{
+    margin: 5px ;
+    border: rgba(0, 195, 255, 0.685) solid 3px;
+    border-radius: 1rem;
+    background:rgba(187, 218, 228, 0.925);
+}
+.reset button{
+    display: block;
+    margin: 2rem auto;
+    width: 20%;
+    height: 30%;
+    font-family: 'Pacifico', cursive;
+    font-size: 1.5rem;
+}

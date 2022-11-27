@@ -1,0 +1,24 @@
+.banner{
+    margin: 5px ;
+    border: rgb(0, 0, 0) solid 3px;
+    border-radius: 1rem;
+    background:rgb(0, 0, 0);
+    font-family: 'Pacifico', cursive;
+}
+
+.banner .turnMark{
+    border: red solid 3px;
+    border-radius: 1rem;
+
+}
+
+.banner h3{
+    color: aliceblue;
+    margin-bottom: 0;
+}
+
+/*
+.banner span{
+    ;
+}
+*/
