@@ -43,6 +43,7 @@ nav a{
     position: absolute;
     bottom: 25%;
     right: 5%;
+    z-index: 15;
   }
 
   nav a{
@@ -79,6 +80,7 @@ nav a{
     position: absolute;
     bottom: 5%;
     right: 5%;
+    z-index: 15;
   }
   
   nav a{
