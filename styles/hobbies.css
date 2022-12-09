@@ -1,0 +1,95 @@
+body{
+  background: url('../images/deep-ocean.jpg') no-repeat center;
+  background-size: cover;
+  height: 100vh;
+}
+
+.hobby-all{
+  height: 95%;
+}
+
+.outer-v{
+  height: 40%;
+}
+
+.center-v{
+  height: 15%;
+}
+ 
+.bottom-v{
+  height: 5%;
+}
+
+
+.outer-button{
+  width: 30%;
+  height: 66%;
+  border-radius: 60px ;
+  background-color: antiquewhite;
+}
+
+.center-button{
+  width: 20%;
+  height:100%;
+  border-radius: 20% / 50%;
+  background-color: rgb(161, 253, 167);
+  font-size: 2rem;
+  color: rgb(5, 90, 90);
+  font-family: 'Bebas Neue', cursive;
+}
+
+@media(max-width : 768px){
+  .outer-v{
+    height: 40%;
+  }
+
+  .center-v{
+    height: 10%;
+  }
+
+  .outer-button{
+    width: 45%;
+    height: 66%;
+    border-radius: 50px ;
+    background-color: antiquewhite;
+  }
+
+  .center-button{
+    width: 60%;
+    height:100%;
+    border-radius: 30px;
+    background-color: rgb(161, 253, 167);
+    font-size: 2rem;
+    color: rgb(5, 90, 90);
+    font-family: 'Bebas Neue', cursive;
+  }
+}
+
+
+
+.outer-TT{
+  background: url("../images/hobbies/TT2.gif") center;
+  background-size: cover;
+}
+
+.outer-G{
+  background: url("../images/hobbies/G2.gif") center;
+  background-size: cover;
+}
+
+.outer-A{
+  background: url("../images/hobbies/A.gif") center;
+  background-size: cover;
+}
+
+.outer-Q{
+  background: url("../images/hobbies/Q.gif") center;
+  background-size: cover;
+}
+
+/* hobbies_TT*/
+
+.scroll_menu{
+  overflow: auto;
+  white-space: nowrap;
+}
