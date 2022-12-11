@@ -10,12 +10,14 @@
 
 .timeline{
   position: relative;
-  margin: 0rem;
-  padding: 0rem 10%;
+  margin: 0rem 15%;
+  padding: 2rem 0rem;
+  border-left: 4px solid rgb(153, 153, 153);
 }
 
 .timeline-item{
-  border-left: 4px solid rgb(43, 0, 255);
+  margin: 1rem 1rem;
+
 }
 
 .timeline-item::before{
@@ -23,8 +25,55 @@
   height: 20px;
   width: 20px;
   border-radius: 50%;
-  border: 4px solid rgb(26, 160, 183);
+  border: 4px solid rgb(15, 139, 161);
   background-color: rgb(255, 255, 255);
   position: absolute;
-  left: calc(10% - 8px);
+  left: -12px; 
+}
+
+.card-img-top{ 
+  margin: 0% auto;
+  max-height: 10rem;
+  max-width: 10rem;
+}
+
+.card-text{
+  position: relative;
+}
+
+.black::after{
+  content: "";
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background-color: black;
+  position: absolute;
+  bottom : 2px;
+  left: 42px;
+}
+
+.red::after{
+  content: "";
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background-color: rgb(255, 0, 0);
+  position: absolute;
+  bottom : 2px;
+  left: 42px; 
+}
+
+.badge-nittaku{
+  background-color: blue;
+  color: gold;
+}
+
+.badge-xiom{
+  background-color: silver;
+  color: black;
+}
+
+.badge-butterfly{
+  background-color: rgb(215, 47, 120);
+  color: white;
 }
