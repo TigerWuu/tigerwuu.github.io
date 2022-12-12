@@ -13,6 +13,9 @@
   margin: 0rem 15%;
   padding: 2rem 0rem;
   border-left: 4px solid rgb(153, 153, 153);
+  background-color: azure;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
 }
 
 .timeline-item{
