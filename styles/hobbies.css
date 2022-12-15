@@ -5,6 +5,10 @@ body{
 }
 
 .hobby-all{
+  height: 95%;
+}
+
+.all{
   height: 100%;
 }
 
@@ -60,6 +64,9 @@ body{
   }
 }
 
+.space{
+  height: 5%;
+}
 
 
 .outer-TT{
