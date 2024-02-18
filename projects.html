@@ -74,8 +74,11 @@
         <div class="col-12 col-md-4">
             <nav id="navbar-content" class="navbar navbar-light bg-light flex-column">
               <nav class="nav nav-pills flex-column">
-                <a class="navbar-brand" href="#projects">Projects</a>
-                <a class="nav-link" href="#side-project">Side Projects</a>
+                <a class="navbar-brand" href="#side-project">Side Projects</a>
+                <a class="navbar-brand" href="#2nd-Year">Graduate</a>
+                <a class="nav-link" href="#2nd-Year">2nd Year</a>
+                <a class="nav-link" href="#1st-Year">1st Year</a>
+                <a class="navbar-brand" href="#5th-grade">Undergraduate</a>
                 <a class="nav-link" href="#5th-grade">5th-Grade</a>
                 <a class="nav-link" href="#senior">Senior</a>
                 <a class="nav-link" href="#junior">Junior</a>
@@ -132,12 +135,57 @@
                     <a href="https://github.com/TigerWuu/my-web" class="card-link">
                       <i class="fa-brands fa-github-alt git-icon"></i>
                     </a>
-                    <a href="http://tiger-web-dev.ap-northeast-1.elasticbeanstalk.com" class="card-link">
+                    <a href="https://tigerwuu.github.io" class="card-link">
                       <i class="fa-solid fa-earth-americas game-icon"></i>
                     </a>
                   </div>  
                 </div>
               </div>
+            </div>
+            <div class="space"></div>
+            <div class="card-deck">
+              <div class="card bg-light border-warning">
+                <img class="card-img-top UAV-hover" src="images/projects/UAV1.png" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">UAV precision landing with fiducial marker</h5>
+                  <p class="card-text">The PX4 official simulation package provides an out-of-shelf precision landing function. However, there are some limitations, such as the limited FOV(35 deg) and detected range(15m). To work around this issue, I took advantage of the existing px4 message "landing_target_raw" and "Precision Land" mode by transmitting the relative position between the UAV and the marker to the ros topic "/mavros/landing_target/raw" to achieve the precision landing function. On the other hand, I made a VTOL supporting frame in this project to avoid contact between standard_vtol and the ground. Unfortunately, the PR didn't pass and I plan to reopen it in the future.</p>
+                  <div class="set-bottom">
+                    <p class="card-text"><small class="text-muted">Period : Feb. 2023 - Apr. 2023 <br> Keywords : UAV, Robotics, ROS, PX4, Pixhawk</small></p>
+                    <a href="https://www.youtube.com/watch?v=qELh-jJTvdk" class="card-link">
+                      <i class="fa-solid fa-file-video video-icon"></i>
+                    </a>
+                  </div>  
+                </div>
+              </div>
+              <div class="card nothing">
+              </div>     
+              <div class="card nothing">
+              </div>     
+            </div>
+            <hr></hr>
+            <h1 id="1st-Year">1st Year</h1>
+            <div class="card-deck animate__animated animate__fadeIn">
+              <div class="card bg-light border-info">
+                <img class="card-img-top" src="images/projects/AR.png" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">AR Vision: Immersive Entertainment through Virtual Devices</h5>
+                  <p class="card-text">To develop a system resembling the Apple Vision Pro, we use a cellphone to simulate AR glasses and a computer to show what the user sees. In addition to presenting the real scene, the computer will also show the game board. The game board is fixed in a virtual location, so its position on the screen varies as the player moves. We implement the Minesweeper as the game board in our project. All actions can be performed through gestures. Our system supports two modes: the game mode, where the player can play the game, and the setting mode, where he or she can adjust the scale or the position of the board.</p>
+                  <div class="set-bottom">
+                    <p class="card-text"><small class="text-muted">Semester : 112-1 <br> Course : 3D Computer Vision with Deep Learning Applications</small></p>
+                    <!--a href="#" class="btn btn-primary">More...</a-->
+                    <a href="projects/3dcv2023_final_project_group_8.pdf" class="card-link">
+                      <i class="fa-regular fa-file-pdf pdf-icon"></i>
+                    </a>
+                    <a href="https://github.com/TigerWuu/3dcv_final_project" class="card-link">
+                      <i class="fa-brands fa-github-alt git-icon"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="card nothing">
+              </div>     
+              <div class="card nothing">
+              </div>             
             </div>
             <hr></hr>
             <h1 id="5th-grade">5th-Grade</h1>
@@ -456,6 +504,14 @@
                                 <span class="fa-stack fa-lg">
                                     <i class="fas fa-circle fa-stack-2x"></i>
                                     <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://www.linkedin.com/in/ching-hsiang-wu-313256226/">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fas fa-circle fa-stack-2x"></i>
+                                    <i class="fab fa-linkedin-in fa-stack-1x fa-inverse"></i>
                                 </span>
                             </a>
                         </li>
