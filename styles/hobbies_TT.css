@@ -9,18 +9,36 @@
 }
 
 .timeline{
-  position: relative;
-  margin: 0rem 15%;
-  padding: 2rem 0rem;
-  border-left: 4px solid rgb(153, 153, 153);
-  background-color: azure;
   border-top-right-radius: 20px;
   border-bottom-right-radius: 20px;
 }
 
-.timeline-item{
-  margin: 1rem 1rem;
+.event{
+  position: relative;
+  margin: 0rem 0%;
+  padding: 1rem 0rem;
+  border: 2px solid rgb(153, 153, 153);
+  background-color: rgb(255, 240, 246);
+  border-radius: 10px;
+}
 
+.no-event{
+  padding : 2rem;
+}
+
+.event-img{
+  max-height: 10rem;
+  max-width: 10rem;
+  margin: 0% auto;
+}
+
+.timeline-item{
+  position: relative;
+  padding: 2rem 1rem;
+  border-left: 4px solid rgb(153, 153, 153);
+  background-color: azure;
+
+  margin: 0rem 0rem;
 }
 
 .timeline-item::before{
