@@ -16,20 +16,40 @@
 .event{
   position: relative;
   margin: 0rem 0%;
-  padding: 1rem 0rem;
+  padding: 1% 0%;
   border: 2px solid rgb(153, 153, 153);
   background-color: rgb(255, 240, 246);
-  border-radius: 10px;
+  border-radius: 0.5rem;
+
 }
 
+
+.events{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1%;
+}
 .no-event{
   padding : 2rem;
 }
 
 .event-img{
-  max-height: 10rem;
-  max-width: 10rem;
+  max-height: 100%;
+  max-width: 100%;
   margin: 0% auto;
+  border-radius: 0.5rem;
+
+}
+
+.event-title{
+  position: relative;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 1.5rem;
+  margin: 0% 0%;
+  padding: 0% 0%;
+  text-align: center;
+  top : 0%
 }
 
 .timeline-item{
@@ -97,4 +117,8 @@
 .badge-butterfly{
   background-color: rgb(215, 47, 120);
   color: white;
+}
+
+.video-icon{
+  color: rgb(9, 27, 107);
 }
