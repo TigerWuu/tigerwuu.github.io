@@ -26,3 +26,6 @@ scrollView(flagScroll, "animate__fadeInRight","animate__animated");
 
 let flagScrollText = "h3"
 scrollView(flagScrollText, "animate__fadeIn","animate__animated");
+
+let flagScrollEvent = ".events";
+scrollView(flagScrollEvent, "animate__fadeInLeft","animate__animated");

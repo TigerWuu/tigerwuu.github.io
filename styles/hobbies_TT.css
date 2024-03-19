@@ -20,16 +20,25 @@
   border: 2px solid rgb(153, 153, 153);
   background-color: rgb(255, 240, 246);
   border-radius: 0.5rem;
+  align-items: center;
+  justify-content: center;
 
 }
 
+.axis-down{
+  height: 50%;
+  border-bottom: 2px dashed red;
+}
+
+.axis-up{
+  height: 50%;
+  border-top: 2px dashed red;
+}
 
 .events{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 1%;
+
 }
+
 .no-event{
   padding : 2rem;
 }
@@ -39,7 +48,6 @@
   max-width: 100%;
   margin: 0% auto;
   border-radius: 0.5rem;
-
 }
 
 .event-title{
@@ -50,6 +58,11 @@
   padding: 0% 0%;
   text-align: center;
   top : 0%
+}
+
+.event-info{
+  padding: 0% 10%;
+  margin: 0%;
 }
 
 .timeline-item{
