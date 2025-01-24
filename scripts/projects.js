@@ -31,4 +31,9 @@ imgToGif(img_ACS, gif_ACS, flag_ACS);
 let img_UAV = "./../images/projects/UAV1.png";
 let gif_UAV = "./../images/projects/UAV4.png";
 let flag_UAV = ".UAV-hover";
-imgToGif(img_UAV, gif_UAV, flag_UAV);
+imgToGif(img_UAV, gif_UAV, flag_UAV); 
+
+let img_RL = "./../images/projects/RL.jpg";
+let gif_RL = "./../images/projects/demo_hrl_4096.gif";
+let flag_RL = ".RL-hover";
+imgToGif(img_RL, gif_RL, flag_RL);

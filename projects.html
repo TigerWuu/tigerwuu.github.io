@@ -148,7 +148,7 @@
                 <img class="card-img-top UAV-hover" src="images/projects/UAV1.png" alt="Card image cap">
                 <div class="card-body">
                   <h5 class="card-title">UAV precision landing with fiducial marker</h5>
-                  <p class="card-text">The PX4 official simulation package provides an off-the-shelf precision landing function. However, there are some limitations, such as the limited FOV(35 deg) and detected range(15m). To work around this issue, I took advantage of the existing px4 message "landing_target_raw" and "Precision Land" mode by transmitting the relative position between the UAV and the marker to the ros topic "/mavros/landing_target/raw" to achieve the precision landing function. On the other hand, I made a VTOL supporting frame in this project to avoid contact between standard_vtol and the ground. Unfortunately, the PR didn't pass and I plan to reopen it in the future.</p>
+                  <p class="card-text">The PX4 official simulation package provides an off-the-shelf precision landing function. However, there are some limitations, such as the limited FOV (35 deg) and detected range (15 m). To work around this issue, I took advantage of the existing px4 message "landing_target_raw" and "Precision Land" mode by transmitting the relative position between the UAV and the marker to the ros topic "/mavros/landing_target/raw" to achieve the precision landing function. On the other hand, I made a VTOL supporting frame in this project to avoid contact between standard_vtol and the ground. Unfortunately, the PR didn't pass and I plan to reopen it in the future.</p>
                   <div class="set-bottom">
                     <p class="card-text"><small class="text-muted">Period : Feb. 2023 - Apr. 2023 <br> Keywords : UAV, Robotics, ROS, PX4, Pixhawk</small></p>
                     <a href="https://www.youtube.com/watch?v=qELh-jJTvdk" class="card-link">
@@ -161,6 +161,37 @@
               </div>     
               <div class="card nothing">
               </div>     
+            </div>
+            <hr></hr>
+            <h1 id="2nd-Year">2nd Year</h1>
+            <div class="card-deck animate__animated animate__fadeIn">
+              <div class="card bg-light border-info">
+                <img class="card-img-top RL-hover" src="images/projects/RL.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Q-DRIVE: Quadrupedal Deep Reinforcement for Intelligent Versatile Execution</h5>
+                  <p class="card-text">In this work, we introduce a hierarchical reinforcement learning framework for pedipulation---using a quadruped's legs for manipulation tasks. Our approach comprises a high-level policy that dynamically selects which leg to use, and a low-level policy that learns precise foot control, including stable contact force when interacting with rigid objects. By combining these two levels of control, we significantly reduce execution time when tasks (e.g., pressing a button) appear on different sides, while maintaining robust balance and accuracy. Crucially, we propose a novel reward design that encourages both reaching the target point and applying the correct contact force to ensure successful and safe manipulation. Simulation results show that our hierarchical method outperforms single-limb approaches in both efficiency and fine-force control, demonstrating the feasibility of using multiple legs for rapid, precise, and stable interactions in dynamic environments.</p>
+                  <div class="set-bottom">
+                    <p class="card-text"><small class="text-muted">Semester : 113-1 <br> Course : Reinforcement Learning</small></p>
+                    <!--a href="#" class="btn btn-primary">More...</a-->
+                    <!--a href="projects/3dcv2023_final_project_group_8.pdf" class="card-link">
+                      <i class="fa-regular fa-file-pdf pdf-icon"></i>
+                    </a-->
+                    <a href="https://github.com/TigerWuu/IsaacLab" class="card-link">
+                      <i class="fa-brands fa-github-alt git-icon"></i>
+                    </a>
+                    <a href="https://micchang002.github.io/QDRIVE.github.io" class="card-link">
+                      <i class="fa-solid fa-earth-americas game-icon"></i>
+                    </a>
+                    <a href="https://www.youtube.com/playlist?list=PLDXGFDRCxXYUsm8-HQkWAK4nwFU4RnQAJ" class="card-link">
+                      <i class="fa-solid fa-file-video video-icon"></i>
+                    </a>                   
+                  </div>
+                </div>
+              </div>
+              <div class="card nothing">
+              </div>     
+              <div class="card nothing">
+              </div>             
             </div>
             <hr></hr>
             <h1 id="1st-Year">1st Year</h1>
