@@ -1,19 +1,19 @@
-.scroll_menu{
+.scroll_menu {
   overflow: auto;
   white-space: nowrap;
 }
 
-#all-body-hobbies{
+#all-body-hobbies {
   margin: 0rem;
   padding: 0rem 7%;
 }
 
-.timeline{
+.timeline {
   border-top-right-radius: 20px;
   border-bottom-right-radius: 20px;
 }
 
-.event{
+.event {
   position: relative;
   margin: 0rem 0%;
   padding: 1% 0%;
@@ -25,56 +25,68 @@
 
 }
 
-.axis-down{
+.axis-down {
+  position: relative;
   height: 50%;
   border-bottom: 2px dashed red;
 }
 
-.axis-up{
+.axis-down::after {
+  content: "";
+  position: absolute;
+  bottom: -8px;
+  right: -10px;
+  /* small gap between circle and line end */
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: white;
+  border: 2px solid red;
+}
+
+.axis-up {
   height: 50%;
   border-top: 2px dashed red;
 }
 
-.events{
+.events {}
 
+.no-event {
+  padding: 2rem;
 }
 
-.no-event{
-  padding : 2rem;
-}
-
-.event-img{
+.event-img {
   max-height: 100%;
   max-width: 100%;
   margin: 0% auto;
   border-radius: 0.5rem;
 }
 
-.event-title{
+.event-title {
   position: relative;
   font-family: 'Bebas Neue', cursive;
   font-size: 1.5rem;
   margin: 0% 0%;
   padding: 0% 0%;
   text-align: center;
-  top : 0%
+  top: 0%
 }
 
-.event-info{
+.event-info {
   padding: 0% 10%;
   margin: 0%;
 }
 
-.timeline-item{
+.timeline-item {
   position: relative;
   padding: 2rem 1rem;
   border-left: 4px solid rgb(153, 153, 153);
   background-color: azure;
-
+  min-height: 100%;
   margin: 0rem 0rem;
 }
 
-.timeline-item::before{
+.timeline-item::before {
   content: "";
   height: 20px;
   width: 20px;
@@ -82,56 +94,64 @@
   border: 4px solid rgb(15, 139, 161);
   background-color: rgb(255, 255, 255);
   position: absolute;
-  left: -12px; 
+  left: -12px;
 }
 
-.card-img-top{ 
+.card-img-top {
   margin: 0% auto;
   max-height: 10rem;
   max-width: 10rem;
 }
 
-.card-text{
+.card-text {
   position: relative;
 }
 
-.black::after{
+.black::after {
   content: "";
   height: 20px;
   width: 20px;
   border-radius: 50%;
   background-color: black;
   position: absolute;
-  bottom : 2px;
+  bottom: 2px;
   left: 42px;
 }
 
-.red::after{
+.red::after {
   content: "";
   height: 20px;
   width: 20px;
   border-radius: 50%;
   background-color: rgb(255, 0, 0);
   position: absolute;
-  bottom : 2px;
-  left: 42px; 
+  bottom: 2px;
+  left: 42px;
 }
 
-.badge-nittaku{
+.badge-nittaku {
   background-color: blue;
   color: gold;
 }
 
-.badge-xiom{
+.badge-xiom {
   background-color: silver;
   color: black;
 }
 
-.badge-butterfly{
+.badge-butterfly {
   background-color: rgb(215, 47, 120);
   color: white;
 }
 
-.video-icon{
+.video-icon {
   color: rgb(9, 27, 107);
+}
+
+
+.nothing {
+  border: 0;
+  margin-bottom: 0rem;
+  height: 100vh;
+  background-color: azure;
 }
