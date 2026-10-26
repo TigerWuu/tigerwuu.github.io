@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+    <channel>
+      <title>Wuu&#039;s Notes</title>
+      <link>https://tigerwuu.github.io/notes</link>
+      <description>最近的 10 條筆記 on Wuu&#039;s Notes</description>
+      <generator>Quartz -- quartz.jzhao.xyz</generator>
+      <item>
+    <title>Backpropagation Through Time</title>
+    <link>https://tigerwuu.github.io/notes/Concepts/Backpropagation-Through-Time</link>
+    <guid>https://tigerwuu.github.io/notes/Concepts/Backpropagation-Through-Time</guid>
+    <description><![CDATA[ （待補充）這個概念被以下論文用到，見下方反向連結。. ]]></description>
+    <pubDate>Mon, 26 Oct 2026 17:55:30 GMT</pubDate>
+  </item><item>
+    <title>Contrastive Learning</title>
+    <link>https://tigerwuu.github.io/notes/Concepts/Contrastive-Learning</link>
+    <guid>https://tigerwuu.github.io/notes/Concepts/Contrastive-Learning</guid>
+    <description><![CDATA[ （待補充）這個概念被以下論文用到，見下方反向連結。. ]]></description>
+    <pubDate>Mon, 26 Oct 2026 17:55:30 GMT</pubDate>
+  </item><item>
+    <title>Curriculum Learning</title>
+    <link>https://tigerwuu.github.io/notes/Concepts/Curriculum-Learning</link>
+    <guid>https://tigerwuu.github.io/notes/Concepts/Curriculum-Learning</guid>
+    <description><![CDATA[ （待補充）這個概念被以下論文用到，見下方反向連結。. ]]></description>
+    <pubDate>Mon, 26 Oct 2026 17:55:30 GMT</pubDate>
+  </item><item>
+    <title>Domain Randomization</title>
+    <link>https://tigerwuu.github.io/notes/Concepts/Domain-Randomization</link>
+    <guid>https://tigerwuu.github.io/notes/Concepts/Domain-Randomization</guid>
+    <description><![CDATA[ （待補充）這個概念被以下論文用到，見下方反向連結。. ]]></description>
+    <pubDate>Mon, 26 Oct 2026 17:55:30 GMT</pubDate>
+  </item><item>
+    <title>Mixture of Experts</title>
+    <link>https://tigerwuu.github.io/notes/Concepts/Mixture-of-Experts</link>
+    <guid>https://tigerwuu.github.io/notes/Concepts/Mixture-of-Experts</guid>
+    <description><![CDATA[ （待補充）這個概念被以下論文用到，見下方反向連結。. ]]></description>
+    <pubDate>Mon, 26 Oct 2026 17:55:30 GMT</pubDate>
+  </item><item>
+    <title>Motion Retargeting</title>
+    <link>https://tigerwuu.github.io/notes/Concepts/Motion-Retargeting</link>
+    <guid>https://tigerwuu.github.io/notes/Concepts/Motion-Retargeting</guid>
+    <description><![CDATA[ （待補充）這個概念被以下論文用到，見下方反向連結。. ]]></description>
+    <pubDate>Mon, 26 Oct 2026 17:55:30 GMT</pubDate>
+  </item><item>
+    <title>PPO</title>
+    <link>https://tigerwuu.github.io/notes/Concepts/PPO</link>
+    <guid>https://tigerwuu.github.io/notes/Concepts/PPO</guid>
+    <description><![CDATA[ （待補充）這個概念被以下論文用到，見下方反向連結。. ]]></description>
+    <pubDate>Mon, 26 Oct 2026 17:55:30 GMT</pubDate>
+  </item><item>
+    <title>PointNet</title>
+    <link>https://tigerwuu.github.io/notes/Concepts/PointNet</link>
+    <guid>https://tigerwuu.github.io/notes/Concepts/PointNet</guid>
+    <description><![CDATA[ （待補充）這個概念被以下論文用到，見下方反向連結。. ]]></description>
+    <pubDate>Mon, 26 Oct 2026 17:55:30 GMT</pubDate>
+  </item><item>
+    <title>ResNet</title>
+    <link>https://tigerwuu.github.io/notes/Concepts/ResNet</link>
+    <guid>https://tigerwuu.github.io/notes/Concepts/ResNet</guid>
+    <description><![CDATA[ （待補充）這個概念被以下論文用到，見下方反向連結。. ]]></description>
+    <pubDate>Mon, 26 Oct 2026 17:55:30 GMT</pubDate>
+  </item><item>
+    <title>Transformer</title>
+    <link>https://tigerwuu.github.io/notes/Concepts/Transformer</link>
+    <guid>https://tigerwuu.github.io/notes/Concepts/Transformer</guid>
+    <description><![CDATA[ （待補充）這個概念被以下論文用到，見下方反向連結。. ]]></description>
+    <pubDate>Mon, 26 Oct 2026 17:55:30 GMT</pubDate>
+  </item>
+    </channel>
+  </rss>
