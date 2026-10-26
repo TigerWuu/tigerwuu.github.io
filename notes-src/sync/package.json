@@ -1,0 +1,10 @@
+{
+  "name": "notes-sync",
+  "private": true,
+  "type": "module",
+  "description": "Pull the Robotics notes from Notion for the Quartz notes site",
+  "dependencies": {
+    "@notionhq/client": "2.3.0",
+    "notion-to-md": "3.1.9"
+  }
+}

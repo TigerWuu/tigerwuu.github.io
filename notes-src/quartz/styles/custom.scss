@@ -1,0 +1,109 @@
+@use "./base.scss";
+
+// main-site look: dark Bootstrap navbar, deep-ocean banner, Bebas Neue only on page titles
+body {
+  padding-top: 44px;
+}
+.site-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 0.5rem max(16px, 1rem);
+  background: #343a40;
+  font-family: "Kdam Thmor Pro", sans-serif;
+  overflow-x: auto;
+  a {
+    color: rgba(255, 255, 255, 0.55);
+    background: none !important;
+    padding: 0;
+    &:hover {
+      color: rgba(255, 255, 255, 0.85);
+    }
+  }
+  .site-brand {
+    color: #fff;
+    font-size: 1.6rem;
+  }
+  ul {
+    display: flex;
+    gap: 1.1rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  li.active a {
+    color: #fff;
+  }
+}
+.page > #quartz-body .page-header {
+  margin-top: 0;
+}
+.article-title {
+  font-size: 2.6rem;
+  letter-spacing: 0.02em;
+}
+h2, h3, h4, h5, h6 {
+  font-family: var(--bodyFont);
+  font-weight: 700;
+}
+.page-title a {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 2.2rem;
+  letter-spacing: 0.03em;
+}
+.sidebar.left {
+  top: 64px !important;
+}
+.sidebar.right {
+  top: 64px !important;
+}
+.site-masthead {
+  position: relative;
+  margin: 1rem 0 1.5rem;
+  padding: 3.5rem 1rem;
+  border-radius: 6px;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  overflow: hidden;
+  &::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: #212529;
+    opacity: 0.5;
+  }
+  h1 {
+    position: relative;
+    margin: 0;
+    font-size: clamp(3rem, 9vw, 5.5rem);
+    color: aliceblue;
+    line-height: 1;
+  }
+  span {
+    position: relative;
+    display: block;
+    margin-top: 0.4rem;
+    color: beige;
+  }
+}
+
+// embedded inside the main site's Bootstrap page: the outer page supplies the nav bar
+html.embedded {
+  body {
+    padding-top: 0;
+  }
+  .site-nav,
+  .site-masthead {
+    display: none;
+  }
+  .sidebar.left,
+  .sidebar.right {
+    top: 0 !important;
+  }
+}

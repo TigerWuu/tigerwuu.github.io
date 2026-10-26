@@ -1,0 +1,62 @@
+name: Notes site
+
+# Pulls the Robotics notes from Notion, builds them with Quartz into notes/,
+# and commits the result so GitHub Pages serves it at /notes.html
+on:
+  schedule:
+    - cron: "0 18 * * *" # every day at 02:00 Taiwan time
+  workflow_dispatch: # "Run workflow" button on the Actions tab
+  push:
+    branches: [master]
+    paths:
+      - "notes-src/**"
+      - ".github/workflows/notes.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: notes-site
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    env:
+      NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
+      NOTION_ROOT_PAGE_ID: 85577224027d48419ffc68a932bb0e5a # Robotics-Techniques Notes
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Pull notes from Notion
+        # without the secret, the site is rebuilt from the notes already in notes-src/content
+        if: env.NOTION_TOKEN != ''
+        run: |
+          pip install pillow
+          cd notes-src/sync
+          npm ci --no-audit --no-fund
+          node notion-sync.mjs "$NOTION_ROOT_PAGE_ID" "$RUNNER_TEMP/notion-export"
+          python3 convert.py "$RUNNER_TEMP/notion-export" ../content
+
+      - name: Build notes site
+        run: bash notes-src/build.sh
+
+      - name: Commit changes
+        run: |
+          git add notes notes-src/content
+          if git diff --cached --quiet; then
+            echo "Notes are already up to date"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Update notes from Notion"
+          git push
